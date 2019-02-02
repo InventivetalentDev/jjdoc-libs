@@ -23,7 +23,9 @@ cd ..
 # Run Doclet
 # - Takes sources from /libs/.../source/... - which should be a submodule of the library's source code
 # - Outputs to /libs/.../jjdoc & /libs/.../jjdoc-....json
-javadoc -docletpath ./temp/json-doclet-${DOCLET_VERSION}-SNAPSHOT-jar-with-dependencies.jar -doclet org.inventivetalent.jsondoclet.JsonDoclet -indexfile -outdir ../libs/${LIB_NAME}/jjdoc  -singlefile -outfile ../libs/${LIB_NAME}/jjdoc-${LIB_NAME}.json -sourcepath ../libs/${LIB_NAME}/source/${SOURCE_PATH} -public -subpackages $PACKAGES
+echo "Source Path: /libs/${LIB_NAME}/source/${SOURCE_PATH}"
+echo "Packages: ${PACKAGES}"
+javadoc -docletpath ./temp/json-doclet-${DOCLET_VERSION}-SNAPSHOT-jar-with-dependencies.jar -doclet org.inventivetalent.jsondoclet.JsonDoclet -indexfile -outdir ../libs/${LIB_NAME}/jjdoc  -singlefile -outfile ../libs/${LIB_NAME}/jjdoc-${LIB_NAME}.json -sourcepath ../libs/${LIB_NAME}/source/${SOURCE_PATH} -public -subpackages ${PACKAGES}
 
 ## Final cleanup
 rm -Rf temp
