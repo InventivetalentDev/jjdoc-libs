@@ -12,7 +12,7 @@ cd scripts/
 
 # run generate with args
 chmod +x generate.sh
-./generate.sh LIB_NAME SOURCE_PATH PACKAGES
+./generate.sh ${LIB_NAME} ${SOURCE_PATH} ${PACKAGES}
 
 # cd back into lib dir
 cd ..
