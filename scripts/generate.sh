@@ -11,6 +11,9 @@ EXCLUDE=$4
 
 echo "Generating $LIB_NAME/$SOURCE_PATH"
 
+# cleanup old doc
+rm -Rf ../libs/${LIB_NAME}/jjdoc
+
 # Create temp directory & cd into it
 mkdir temp
 cd temp
