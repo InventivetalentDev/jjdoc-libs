@@ -1,0 +1,3 @@
+[submodule "libs/PacketListenerAPI/source"]
+	path = libs/PacketListenerAPI/source
+	url = https://github.com/InventivetalentDev/PacketListenerAPI.git
