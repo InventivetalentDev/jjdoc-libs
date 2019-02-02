@@ -4,3 +4,6 @@
 [submodule "libs/VaultAPI/source"]
 	path = libs/VaultAPI/source
 	url = https://github.com/MilkBowl/VaultAPI.git
+[submodule "libs/PlaceholderAPI/source"]
+	path = libs/PlaceholderAPI/source
+	url = https://github.com/PlaceholderAPI/PlaceholderAPI.git

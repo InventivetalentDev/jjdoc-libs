@@ -1,0 +1,1 @@
+http://repo.extendedclip.com/content/repositories/placeholderapi/me/clip/placeholderapi/2.9.2/placeholderapi-2.9.2.jar
