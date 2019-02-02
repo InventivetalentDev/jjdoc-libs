@@ -1,4 +1,4 @@
-#!/bin/sh -v
+#!/bin/sh -x
 
 ### First "git clone https://github.com/InventivetalentDev/jjdoc-libs.git"
 ### cd scripts
