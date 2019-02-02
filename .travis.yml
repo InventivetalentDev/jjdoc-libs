@@ -1,0 +1,16 @@
+language: java
+jdk:
+  - oraclejdk8
+
+install:
+  - "git clone --quiet https://${GITHUB_TOKEN}@github.com/$TRAVIS_REPO_SLUG.git $TRAVIS_REPO_SLUG > /dev/null"
+  - "cd $TRAVIS_REPO_SLUG"
+
+before_script:
+  - "chmod +x run_all.sh"
+  - "git config --global user.email 'git-bot@inventivetalent.org'"
+  - "git config --global user.name 'InventiveBot'"
+script: "./run_all.sh"
+env:
+  global:
+    - secure: "ctBw6SbiAJT6NUTn0KoRJtQpSBnirps7OLguXz/A7CN04tWPYzf+iT3xFMMpYxihrC7XQ/WMN5NL3LKxcbpEN09mzm8ilCvIP6O0OTXwz3mhttpZSWyr2iN2irqlz2e5WLZzwnFV1qwgdsCDgPqTC6lftVPrG1sU8tPIwnnahFoagfQo6YBjin1ddApNwJjT0+zBUdU7jgaentuJw5DriTPy4TRJMNzEIv46J8lC1ETy7eqJWubBFhQQaF23zW2HxG3lDrYF1HhPSUL1LAFoFzIXdZDU7Gm0Eq6EPwh+vOM2XFICZsBrQQrqEluZAZsAqJQPXfFjEEiSx/FqPMKUCpCVz6oaIkK3weTQ0qjrsQXkuTWRV/hOByoCrN8LM6V3VInIzLqvyUWbk7+Uvp4EsXnsmpqoilFAW8C8JH+M/yC9bsE/oGiw+UyuDJg8XjjKb5E1wpiRhl16AD2HQB/DB9ohWgs3ZexHHmr+9C/aJbk6RbrlAK0XNbwIgKPoKOffkaX32Ex/EOFPmFztiEhTgSgCLLWaOHZycPIxc6a5u8dv1JegWccWjP4MlsnOR2Bex7lnsdTn1qa/L3gG8MohYEl4O3g0S2hX7P/5ufVGreFd1DfrILHysmdqIF5jQgzTyV+6xEGVR0BrC9yFNcbQEidObMr7STex7Ox5IRCFZKA="
