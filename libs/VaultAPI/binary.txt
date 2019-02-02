@@ -1,0 +1,1 @@
+http://nexus.hc.to/content/repositories/pub_releases/net/milkbowl/vault/VaultAPI/1.7/VaultAPI-1.7.jar
