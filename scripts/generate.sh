@@ -8,7 +8,7 @@ LIB_NAME=$1
 SOURCE_PATH=$2
 PACKAGES=$3
 
-print "Generating $LIB_NAME/$SOURCE_PATH"
+echo "Generating $LIB_NAME/$SOURCE_PATH"
 
 # Create temp directory & cd into it
 mkdir temp
