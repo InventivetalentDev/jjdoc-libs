@@ -3,7 +3,7 @@
 LIB_NAME="VaultAPI"
 SOURCE_PATH="src/main/java"
 PACKAGES="net.milkbowl.vault"
-EXCLUDE=""
+EXCLUDE=":"
 
 # cd out to root dir
 cd ../..
