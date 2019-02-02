@@ -3,7 +3,7 @@
 LIB_NAME="PlaceholderAPI"
 SOURCE_PATH="src/main/java"
 PACKAGES="me.clip.placeholderapi"
-EXCLUDE="me.clip.updatechecker"
+EXCLUDE="me.clip.placeholderapi.updatechecker"
 
 # cd out to root dir
 cd ../..
