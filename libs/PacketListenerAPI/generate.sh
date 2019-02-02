@@ -20,4 +20,4 @@ cd libs/${LIB_NAME}
 
 # commit
 git add .
-git commit -m "Update $LIB_NAME"
+git commit -m "[skip ci] Update $LIB_NAME"
