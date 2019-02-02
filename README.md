@@ -5,6 +5,8 @@ This is mainly used by the [PluginBlueprint](https://pluginblueprint.net) Editor
 
 
 ## Adding libraries
+**If you're not comfortable adding a library yourself, feel free to [open an issue](https://github.com/InventivetalentDev/jjdoc-libs/issues/new?labels=library-request) to simply request it to be added :)**  
+  
 0. Clone this repo `git clone https://github.com/InventivetalentDev/jjdoc-libs.git`
 1. Create a subdirectory in the `/libs` folder with the library's name
 2. Add a submodule at `/libs/%library-name%/source` of the library's source code  
@@ -38,4 +40,4 @@ git add .
 git commit -m "Update $LIB_NAME"
 ```  
 4. If you're adding the library to be used with PluginBlueprint, create a `binary.txt` file in the library's directory with a direct link to a binary download of the library
-5. Create a Pull-Request with the submodule & generate script and wait for it to be accepted :)
+5. [Create a Pull-Request](https://github.com/InventivetalentDev/jjdoc-libs/compare?labels=library-request) with the submodule & generate script and wait for it to be accepted :)
