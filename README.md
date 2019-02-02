@@ -37,4 +37,5 @@ cd libs/${LIB_NAME}
 git add .
 git commit -m "Update $LIB_NAME"
 ```  
-4. Create a Pull-Request with the submodule & generate script and wait for it to be accepted :)
+4. If you're adding the library to be used with PluginBlueprint, create a `binary.txt` file in the library's directory with a direct link to a binary download of the library
+5. Create a Pull-Request with the submodule & generate script and wait for it to be accepted :)
