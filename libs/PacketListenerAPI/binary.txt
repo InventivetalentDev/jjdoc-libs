@@ -1,0 +1,1 @@
+https://github.com/InventivetalentDev/PacketListenerAPI/releases/download/3.7.2-SNAPSHOT/PacketListenerAPI_v3.7.2-SNAPSHOT.jar
