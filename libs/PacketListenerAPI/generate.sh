@@ -16,7 +16,7 @@ chmod +x generate.sh
 
 # cd back into lib dir
 cd ..
-cd libs/$LIB_NAME
+cd libs/${LIB_NAME}
 
 # commit
 git add .
