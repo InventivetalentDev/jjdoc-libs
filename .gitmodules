@@ -7,3 +7,6 @@
 [submodule "libs/PlaceholderAPI/source"]
 	path = libs/PlaceholderAPI/source
 	url = https://github.com/PlaceholderAPI/PlaceholderAPI.git
+[submodule "bukkit-source"]
+	path = bukkit-source
+	url = https://hub.spigotmc.org/stash/scm/spigot/bukkit.git
