@@ -3,7 +3,7 @@
 ### First "git clone https://github.com/InventivetalentDev/jjdoc-libs.git"
 ### cd scripts
 
-DOCLET_VERSION="1.0.3"
+DOCLET_VERSION="1.0.4"
 LIB_NAME=$1
 SOURCE_PATH=$2
 PACKAGES=$3
